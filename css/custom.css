@@ -1,3 +1,7 @@
 .navbar-default {
   border: none;
 }
+
+.spacing {
+  padding-top: 100px;
+}
