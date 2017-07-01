@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="The Website of Taft Prep School">
-    <meta name="author" content="Jonathan Ceresa">
+    <meta name="description" content="Contact Taft Prep School offering test preparation for standardized tests including SAT, ACT and graduate school entrance exams. Taft Prep also provides private tutoring and college admissions counseling.">
+    <meta name="author" content="Taft Prep">
     <link rel="icon" href="favicon.ico">
 
     <title>Taft Prep Homepage</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/carousel.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -47,8 +47,11 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html">Meet our Tutors</a></li>
                 <li class="active"><a href="contact.html">Contact</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="navbar-text">Call Us: 555-555-5555</li>
               </ul>
             </div>
           </div>
@@ -64,16 +67,36 @@
     <div class="container spacing">
 
       <div class="row">
+
+    <!-- To be deleted -->
         <div class="col-sm-6">
-          <i class="fa fa-envelope fa-5x" aria-hidden="true"></i><br>E-Mail
+          <h3>Happily serving greater New York City</h3>
+          <p>We happily serve all five burroughs. Please feel free to contact us with any questions or comments.</p>
+          <img class="featurette-image img-responsive center-block" src="assets/img/nymap.png" alt="Michael Taft">
+          <!-- <i class="fa fa-envelope fa-5x" aria-hidden="true"></i><br>E-Mail<br>
+          <i class="fa fa-phone fa-5x" aria-hidden="true"></i><br>Call Us<br> -->
         </div>
+    <!-- Forms to be submitted to Email -->
         <div class="col-sm-6">
-          <i class="fa fa-phone fa-5x" aria-hidden="true"></i><br>Call Us
+          <form>
+            <h3>Contact us.</h3>
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Your Name" aria-describedby="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Email address" aria-describedby="E Mail">
+            </div>
+            <div class="form-group">
+              <textarea type="text" class="form-control" id="question" placeholder="Type your question or comment here." aria-describedby="E Mail"></textarea>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+          </form>
         </div>
       </div>
 
       <!-- FOOTER -->
       <footer>
+        <hr class="featurette-divider">
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2017 Taft Prep
       </footer>
