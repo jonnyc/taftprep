@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Contact Taft Prep School offering test preparation for standardized tests including SAT, ACT and graduate school entrance exams. Taft Prep also provides private tutoring and college admissions counseling.">
-    <meta name="author" content="Taft Prep">
+    <meta name="author" content="techargonauts.com">
     <link rel="icon" href="favicon.ico">
 
     <title>Taft Prep Homepage</title>
@@ -78,18 +78,24 @@
         </div>
     <!-- Forms to be submitted to Email -->
         <div class="col-sm-6">
-          <form>
+          <form id="contact-form">
             <h3>Contact us.</h3>
             <div class="form-group">
-              <input type="text" class="form-control" id="name" placeholder="Your Name" aria-describedby="Your Name">
+              <input required type="text" class="form-control" id="name" placeholder="Your Name" aria-describedby="Your Name">
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="email" placeholder="Email address" aria-describedby="E Mail">
+              <input required type="email" class="form-control" id="email" placeholder="Your Email address" aria-describedby="E Mail">
             </div>
             <div class="form-group">
-              <textarea type="text" class="form-control" id="question" placeholder="Type your question or comment here." aria-describedby="E Mail"></textarea>
+              <textarea required type="text" class="form-control" id="question" placeholder="Type your question or comment here." aria-describedby="E Mail"></textarea>
             </div>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+            <div id="success-alert" class="hidden alert alert-success">
+              <strong>Success!</strong> You will be contacted by our tutors shortly.
+            </div>
+            <div id="error-alert" class="hidden alert alert-danger">
+              <strong>Error!</strong> There has been an error when trying to submit the information.
+            </div>
           </form>
         </div>
       </div>
@@ -113,5 +119,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
   </body>
 </html>
