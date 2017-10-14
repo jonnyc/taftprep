@@ -1,45 +1,20 @@
 ---
 layout: default
-title: Contact us
+title: Contact Us
 ---
 
-<!-- Contact ================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
-
-<div class="container spacing">
-
+<div class="container text-center">
+  <div class="row content">
+    <div class="col-xs-12">
+      <h3>{{page.title}}</h3>
+      <p>Feel free to reach out and schedule a free 30-minute consultation where we will discuss your child’s perceived areas of improvement as well as strategy.</p>
+      <a href="mailto:taftprep@gmail.com">taftprep@gmail.com</a>
+      <p>(917) 545-8891</p>
+    </div><!-- /.col-xs-12 -->
+  </div><!-- /.row -->
   <div class="row">
-
-<!-- To be deleted -->
-    <div class="col-sm-6">
-      <h3>Happily serving greater New York City</h3>
-      <p>We happily serve all five burroughs. Please feel free to contact us with any questions or comments.</p>
-      <img class="featurette-image img-responsive center-block" src="assets/img/nymap.png" alt="Michael Taft">
-      <!-- <i class="fa fa-envelope fa-5x" aria-hidden="true"></i><br>E-Mail<br>
-      <i class="fa fa-phone fa-5x" aria-hidden="true"></i><br>Call Us<br> -->
-    </div>
-<!-- Forms to be submitted to Email -->
-    <div class="col-sm-6">
-      <form id="contact-form">
-        <h3>Contact us.</h3>
-        <div class="form-group">
-          <input required type="text" class="form-control" id="name" placeholder="Your Name" aria-describedby="Your Name">
-        </div>
-        <div class="form-group">
-          <input required type="email" class="form-control" id="email" placeholder="Your Email address" aria-describedby="E Mail">
-        </div>
-        <div class="form-group">
-          <textarea required type="text" class="form-control" id="question" placeholder="Type your question or comment here." aria-describedby="E Mail"></textarea>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
-        <div id="success-alert" class="hidden alert alert-success">
-          <strong>Success!</strong> You will be contacted by our tutors shortly.
-        </div>
-        <div id="error-alert" class="hidden alert alert-danger">
-          <strong>Error!</strong> There has been an error when trying to submit the information.
-        </div>
-      </form>
-    </div>
-  </div>
-
+    <div class="col-xs-12">
+      <img class="img-responsive center-block content-image" src="{{base.url}}/assets/img/logo.png" alt="Taft Prep Logo">
+    </div><!-- /.col-xs-12 -->
+  </div><!-- /.row -->
 </div><!-- /.container -->
