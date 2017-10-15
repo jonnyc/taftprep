@@ -11,7 +11,12 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background: url('../assets/img/bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .navbar .container-fluid, .navbar-collapse {
@@ -39,8 +44,9 @@ body {
 
 #homepage * ul {
   list-style: none;
-  padding: 0;
+  padding: 0 0 50px 0;
   list-style-type: none;
+  /*padding-bottom: 50px;*/
 }
 
 #homepage * ul > li {
@@ -63,7 +69,12 @@ a:hover {
 
 .content-image {
   padding-top: 10%;
+  padding-bottom: 40px;
   width: 10%;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 /*Contact Form Styles*/
