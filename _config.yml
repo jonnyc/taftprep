@@ -16,8 +16,8 @@
 title: Taft Prep
 email: taftprep@gmail.com
 description: Tech Argonauts is an end to end consulting firm specializing in cloud development.
-baseurl: "/taftprep" # the subpath of your site, e.g. /blog
-url: "https://jonnyc.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jonnyc.github.io/taftprep" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jonnyc
 
 permalink: /:year/:month/:day/:title.html
