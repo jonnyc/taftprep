@@ -27,11 +27,6 @@ body:before {
 body {
   padding-top: 40px;
   padding-bottom: 40px;
-  /*background: url('../assets/img/bg.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;*/
 }
 
 .navbar .container-fluid, .navbar-collapse {
