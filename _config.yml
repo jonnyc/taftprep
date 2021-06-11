@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Taft Prep
-email: taftprep@gmail.com
+email: michael.taft.ab@gmail.com
 description: Tech Argonauts is an end to end consulting firm specializing in cloud development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.taftprep.com" # the base hostname & protocol for your site, e.g. http://example.com
